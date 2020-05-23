@@ -1,0 +1,26 @@
+############################# Merch ###################################
+merch:
+  enable : true
+  title : Buy Something Will Ya
+  merch_item :
+  - icon : images/merch/angry-dolphin-m-url.png
+    title : Angry Dolphin Tee Shirt
+    links:
+      - icon: images/icons/Rupy.gif
+        url: https://shop.spreadshirt.com/bromegatees/angry+dolphinprintwhiteurl-A5d89d6c513615160bf750e8a?productType=812
+
+  - icon : images/merch/angry-dolphin-m.png
+    title : Angry Dolphin Tee Shirt (no url)
+    links:
+      - icon: images/icons/Rupy.gif
+        url: https://shop.spreadshirt.com/bromegatees/angry+dolphinprintwhitenourl-A5d89d6c51cbf3a25d59af21a?productType=812
+
+  - icon : images/merch/cover170x170.jpeg
+    title : Tell Joke For Super Great Success!
+    links:
+      - icon: images/merch/amazon.png
+        url: https://www.amazon.com/Tell-Super-Great-Success-Explicit/dp/B0149SZ06M
+      - icon: images/merch/applemusic.png
+        url: https://geo.music.apple.com/us/album/tell-joke-for-super-great-success/1032074294?mt=1&app=music
+      - icon: images/merch/google_play.webp
+        url: https://play.google.com/store/music/album/Danny_Rouhier_Tell_Joke_for_Super_Great_Success?id=Bqdkcrjiqwmo7fvsrjaerdylkuq

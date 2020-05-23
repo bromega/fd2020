@@ -1,0 +1,32 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/danny1.webp"
+  bg_image : "images/backgrounds/danny1.png"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  logo: images/logo/logo-16-bit.png
+  buttons:
+    podcast:
+      label : "Podcast"
+      link : "#podcast"
+      weight: 1
+    youtube:
+      label : "You Tube"
+      link : "#youtube"
+      weight: 2
+    shows:
+      label : "Shows"
+      link : "#shows"
+      weight: 3
+    merch:
+      label : "Merch"
+      link : "#merch"
+      weight: 4
+    about:
+      label : "About"
+      link : "#about"
+      weight: 5
+    contact:
+      label : "Contact"
+      link : "#contact"
+      weight: 6

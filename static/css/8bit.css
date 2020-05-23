@@ -1,0 +1,606 @@
+/* main.css for FunnyDanny 8-bit */
+@font-face {
+  font-family: 'EmulogicRegular';
+  src: url('../fonts/emulogic-webfont.eot');
+  src: url('../fonts/emulogic-webfont.eot?#iefix') format('embedded-opentype'),         url('../fonts/emulogic-webfont.woff') format('woff'),         url('../fonts/emulogic-webfont.ttf') format('truetype'),         url('../fonts/emulogic-webfont.svg#EmulogicRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: black;
+  color: white;
+  font-family: 'EmulogicRegular';
+  font-size: 16px;
+}
+#header, #content, #footer {
+  width: 1024px;
+  margin: auto;
+}
+p {
+  font-family: 'Verdana', 'Arial', 'sans-serif';
+  font-size: 12px;
+}
+#maincontent {
+  background: #000;
+  margin: 20px;
+  padding: 10px;
+  font-size: 12px;
+  float: left;
+  width: 690px;
+}
+h1 {
+  font-size: 1.4em;
+}
+h2 {
+  font-size: 1.17em;
+}
+h1, h2, h3 {
+  margin: 0.5em;
+}
+
+
+hr {
+  background: url('../images/brick-blue.png') repeat-x;
+  height: 20px;
+  border: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  overflow-y: hidden
+}
+li {
+  display: inline;
+  list-style-type: none;
+}
+a {
+  color: #F6D27F;
+  text-decoration: none;
+}
+#content {
+  padding-bottom: 20px;
+}
+#logo, #nav, #on-air, #exit {
+  margin: 10px 10px 40px 10px;
+  text-align: center;
+  float: left;
+  background: #4be;
+}
+#header {
+  background: #4be  url('../images/bg-elements.png') no-repeat 2% 100%;
+  height: 160px;
+  overflow: hidden;
+}
+#logo {
+  width: 230px;
+}
+#logo-img {
+  width: 100%;
+  height: 50px;
+  background: #c80 url('../images/logo-8-bit.png') no-repeat;
+}
+#slogan {
+  width: 100%;
+  margin: 0;
+  font-size: 9px;
+  color: white;
+  text-align: center;
+}
+#nav {
+  width: 444px;
+  color: white;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#nav-mid ul {
+  height: 30px;
+  width: 270px;
+  margin: 2px auto;
+  background: url('../images/brick-brown.png');
+}
+#nav li {
+  padding: 0 15px;
+}
+#nav a {
+  color: white;
+  text-decoration: none;
+}
+#on-air {
+  width: 190px;
+  height: 130px;
+  /* background: url('../images/pole-radio.png') center bottom no-repeat;
+*/
+}
+#exit {
+  background: url('../images/castle.png') left bottom no-repeat;
+  width: 100px;
+  height: 140px;
+  margin: 0;
+  text-align: center;
+}
+
+#bricks-top {
+  background: #950 url('../images/block-brown.png');
+  width: 1024px;
+  height: 20px;
+  margin: 140px 0 0 0;
+}
+#bricks-nav {
+  width: 300px;
+  height: 30px;
+  background: #950;
+  margin: 0 auto;
+}
+#content {
+  background: blue url('../images/brick-blue.png');
+  color: white;
+  overflow: auto;
+}
+#content-top, #content-bottom {
+  height: 330px;
+  overflow-x: auto;
+  text-align: center;
+}
+#content-top-left, #content-top-right {
+  height: 300px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: #000;
+  margin: 15px;
+  float: left;
+}
+#content-top-left {
+  width: 510px;
+}
+#content-top-right {
+  width: 454px;
+}
+
+
+
+/* 8-bit specific */
+.download {
+  font-family: 'EmulogicRegular';
+  font-size: 10px;
+  background: url('../images/coin.png') no-repeat 0px 0px;
+  display: block;
+  text-align: left;
+  width: 250px;
+  margin: 20px auto;
+  padding-left: 20px;
+  line-height: 3em;
+}
+#maincontent .download {
+  margin: 20px 0px;
+}
+.coin, .coin-50, .mushroom-red, .star {
+  font-family: 'EmulogicRegular';
+  font-size: 10px;
+  display:inline-block;
+  background: url('../images/coin.png') no-repeat 60% 0%;
+  padding: 30px 0 10px 0;
+  text-align:center;
+  width:50px;
+}
+.coin-50 {
+  width:auto;
+}
+.star {
+  background: url('../images/star.png') no-repeat 50% 0%;
+}
+.mushroom-red {
+  background: url('../images/mushroom-red-30.png') no-repeat 60% 0%;
+  width:50px;
+}
+
+table.cd-link {
+  width:100%;
+  text-align:center;
+}
+table.cd-link td {
+  width:33%;
+}
+
+
+/* Articles */
+.item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 32%;
+}
+.img-intro-left, .img-fulltext-left {
+  float: left;
+  width: 100%;
+}
+.leading-0 .img-intro-left {
+  width: auto;
+  height:250px;
+}
+/*
+.item h2 {
+  font-size: 10px;
+  letter-spacing: -1px;
+}
+*/
+.img-fulltext-left {
+}
+/* Social Menu */
+#social-menu {
+  height: 75px;
+  margin-bottom: -10px;
+}
+#social-menu li {
+  padding: 0 40px 45px 40px;
+}
+#maincontent h3 {
+  color: #F6D27F;
+}
+
+/* Fox Contact */
+.foxform {
+  font-family: 'EmulogicRegular';
+  font-size: 0.8em;
+}
+.foxform h3 {
+  font-size: 1.4em;
+}
+.foxform .asterisk {
+  font-family: 'Verdana', 'Arial', 'sans-serif';
+}
+#social-menu li {
+  background: url('../images/pipe.png') no-repeat 50% 125%;
+  height: 65px;
+  -webkit-box-align: baseline;
+  border: none;
+}
+button.foxbutton {
+  background: url('../images/star.png') no-repeat;
+  padding-left: 36px;
+  height: 32px;
+  border: none;
+}
+button.foxbutton:hover {
+  background-color: #E3713B;
+}
+button.foxbutton span {
+  font-family: 'EmulogicRegular';
+  color: white;
+}
+
+
+/* Galleria */
+#galleria {
+  width: 500px;
+  height: 280px;
+  margin: 0px auto;
+  padding: 0 20px;
+  background: #444;
+}
+.info_slide .image_number, .image_number_select {
+  font-family: 'EmulogicRegular'
+}
+.info_slide {
+  top: 90%;
+}
+
+
+/* On Air */
+#on-air {
+  margin-top: 0;
+}
+#on-air h3 {
+  font-size: 10px;
+  margin: 0;
+}
+/*#on-air li {
+  background: url('../images/box-blank-30.png') no-repeat center center;
+  font-size: 32px;
+  margin: 5px;
+}
+#on-air p {
+  margin: 0
+}
+.radiocom, .itunes {
+  color: transparent;
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+}
+.radiocom {
+  background: url('../images/radiocom-logo.png') no-repeat center center;
+}
+.itunes {
+  background: url('http://images.apple.com/global/nav/images/globalnav_text.png') 95px 0px;
+}
+*/
+#content-bottom-left, #content-bottom-center, #content-bottom-right {
+  height: 300px;
+  background: #000;
+  float: left;
+  margin: 15px;
+  overflow: hidden;
+}
+#content-bottom-left {
+  width: 340px;
+}
+#content-bottom-center {
+  width: 340px;
+  overflow: hidden;
+  text-align: center
+}
+#content-bottom-right {
+  width: 254px;
+}
+/* #content-bottom-right h3 {
+  background: url('../images/box-twitter.png') no-repeat 25px 50%;
+  height: 30px;
+  padding-top: 4px;
+}
+*/
+#media-boxes {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+.media-box {
+  width: 120px;
+  height: 80px;
+  background: #555;
+  margin: 20px 20px;
+  display: inline-block;
+}
+#media-nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+/* Twitter */
+.dannytw .twtr-bd {
+  /* height: 230px;
+  overflow: auto; */
+}
+.twtr-hd, .twtr-ft {
+  display: none
+}
+.twtr-timeline {
+  overflow: hidden;
+}
+.mediagallery {
+  background: url('../images/pipe.png') no-repeat center bottom;
+  display: inline;
+  margin-top: 40px;
+  padding-bottom: 50px;
+}
+
+
+/* Shop Menu */
+#right {
+  float: left;
+  width: 254px;
+  background: #000;
+  margin: 20px 20px 0 0;
+}
+#right li {
+  display: list-item;
+  margin: 10px;
+}
+#right li img {
+  margin-right: 10px;
+}
+
+/* Shop Items */
+#the-cd  td {
+  vertical-align: top;
+  padding: 10px;
+}
+
+
+/* Shows Module */
+.gigcal_menu {
+  display: none;
+}
+.mod_gigcal_upcom {
+  font-family: 'Verdana', 'Arial', 'sans-serif';
+  font-size: 12px;
+  text-align: left;
+}
+.mod_gigcal_upcom div {
+  display: inline-block;
+}
+.mod_gigcal_upcom_venue {
+  width: 190px;
+}
+/* .mod_gigcal_upcom_date, */
+.box-date {
+  font-family: 'EmulogicRegular';
+  font-size: 11px;
+  color: #333300;
+  text-align: center;
+  background: url('../images/box-blank.png') no-repeat 50% 0px;
+  height: 50px;
+  width: 50px;
+  padding-top: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+/*.mod_gigcal_upcom_saleslink a {
+  background: url('../images/box-facebook.png') no-repeat 50% 0px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+*/
+.show-list {
+  height: 230px;
+  overflow: hidden;
+}
+.show-list li {
+  display: block;
+  background: transparent;
+  margin: 4px 0;
+  padding: 2px 0;
+  height: 50px;
+}
+.show-list p {
+  margin: 0;
+}
+.show-list a:hover {
+  color: #E3713B;
+}
+.box-date {
+  vertical-align: top;
+  margin-left: 5px;
+}
+.show-info {
+  margin: 0 0 0 2px;
+  width: 228px;
+  padding: 0;
+  overflow:hidden;
+}
+.show-info h3, .show-title {
+  font-family: 'EmulogicRegular';
+  margin: 0 0 2px 0;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  height:1.3em;
+  width:300px;
+}
+.share-star {
+  font-family: 'EmulogicRegular';
+  font-size: 10px;
+  /* margin: 8px 2px 0 0;
+  margin: 0 auto; */
+  cursor: pointer;
+  text-align: center;
+  display:block;
+  width:50px;
+  vertical-align:top;
+}
+.share-star img {
+  display: block;
+  margin: 0 auto;
+}
+.leading-0 .share-star {
+  display:inline-block;
+}
+.view-all {
+  text-align: right;
+  width: 98%;
+  padding-top: 4px;
+  font-family: 'EmulogicRegular';
+}
+/*  YouTube Boxes  */
+.dvid-container {
+  height: 190px;
+  width: 340px;
+  overflow: auto;
+  background: #000;
+  position: absolute;
+}
+#dvid-buttons {
+  margin-top: 200px;
+}
+.dvid-btn {
+  display: inline-block;
+  background: url('../images/pipe.png') no-repeat 50% 100%;
+  text-align: center;
+  color: white;
+  height: 70px;
+  width: 28%;
+  font-size: 0.7em;
+  margin: 0 1%;
+  cursor: pointer;
+}
+.dvid-btn:hover {
+  color: #A2C857;
+}
+.dvid {
+  margin: 0;
+  padding: 0
+}
+.dvid li {
+  display: inline;
+  padding: 2px;
+}
+.dvid img {
+  height: 56px;
+}
+/*YouTube Gallery*/
+.pagination li {
+  font-family: 'Verdana', 'Arial', 'sans-serif';
+  font-size: 12px;
+  padding: 10px;
+}
+/*
+#content-bottom-center div div div h3 {
+  color: red;
+}
+#content-bottom-center div div div {
+  width: 100px;
+}
+*/
+/* YouTube Playlist */
+/*
+.youtubeplaylist {
+  font-family: 'sans-serif';
+}
+.youtubeplaylist b {
+  display: none;
+}
+#right {
+  float: left;
+  width: 254px;
+  background: #000;
+  margin: 20px 20px 0 0;
+}
+#basic-details {
+  display: none;
+}
+*/
+
+
+/* contact page */
+/*
+.contact fieldset {
+  border: none;
+  padding: 0;
+}
+.contact legend, .contact .star {
+  display: none;
+}
+.contact span {
+  font-family: EmulogicRegular;
+}
+.contact dt {
+  color: #ffff00;
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  font-family: EmulogicRegular;
+}
+.contact dd {
+  display: inline-block;
+  width: 75%;
+  margin: 0;
+}
+*/
+
+
+
+#footer {
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  font-size: 10px;
+  font-family: "Verdana", sans-serif;
+  color: #fff;
+  text-align: center;
+}
