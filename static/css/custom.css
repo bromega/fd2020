@@ -69,14 +69,17 @@ section#youtube {
     background: #1659D0;
 }
 div.youtube {
-    background:  url(/images/icons/mmboxbg.png) center center repeat-x;
+    background:  url('../images/icons/mmboxbg.png') center center repeat-x;
     text-align: center;
     width:200px;
     padding: 30px;
 }
 div.youtube-box {
-    background: url(/images/icons/mmbox.png) center center no-repeat;
+    background: url('../images/icons/mmbox.png') center center no-repeat;
     height: 200px;
+}
+div.youtube-box:hover {
+    background: url('../images/icons/mmboxhover.png') center center no-repeat;
 }
 div.youtube img {
     height: 150px;
@@ -87,13 +90,13 @@ div.youtube img {
 
 
 section#shows {
-    background: #607DFE url(/images/bg/block-rock.png) center bottom repeat-x;
+    background: #607DFE url('../images/bg/block-rock.png') center bottom repeat-x;
     padding-bottom:50px;
 }
 div.show {
     text-align:center;
     padding-bottom:128px;
-    background:url('/images/icons/pipe2.png') center bottom no-repeat;
+    background:url('../images/icons/pipe2.png') center bottom no-repeat;
 }
 div.show h3, div.show h4, div.show p {
     color:white;
@@ -102,7 +105,7 @@ div.show h3, div.show h4, div.show p {
     font-size:16px;
 }
 div.show-box {
-    background: url(/images/icons/box-blank.png) center center no-repeat;
+    background: url('../images/icons/box-blank.png') center center no-repeat;
     font-family: 'Press Start 2P', cursive;
     font-size: 16px;
     text-transform: uppercase;
@@ -116,7 +119,7 @@ div.show-box {
 }
 
 section#merch {
-    background-image: url(/images/bg/block-rock.png);
+    background-image: url('../images/bg/block-rock.png');
 }
 section#merch > div {
     background: black;
