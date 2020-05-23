@@ -2,6 +2,9 @@
 baseURL = "https://funnydanny.com"
 title = "Funny Danny"
 theme = "meghna-hugo"
+
+publishDir = "docs"
+
 # post pagination
 paginate = "6"
 # post excerpt

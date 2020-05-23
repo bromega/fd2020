@@ -1,0 +1,140 @@
+h1, h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+h3, h4 {
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-family: 'Teko', sans-serif;
+    /* font-size: 2em; */
+}
+
+
+section#banner {
+    overflow:hidden;
+}
+
+.hero-area a.btn{
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+    display:block;
+    border:none;
+    font-size: 30px;
+    text-align: center;
+}
+/* .hero-area a.btn:hover{ */
+.btn-transparent:hover, .btn-transparent:focus {
+    background:transparent url('/images/icons/fdhead.png') no-repeat center left;
+    color:#BC3428;
+}
+.hero-area .content {
+    z-index:99;
+    width: 90%;
+}
+.hero-area .content .hero-nav {
+    width:500px;
+    margin-top:50px;
+}
+
+
+
+.navbar .img-fluid {
+    width:300px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-family: 'Press Start 2P', cursive;
+    font-size:14px;
+    padding:0px 10px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color:#BC3428;
+    
+}
+.title h2 {
+    text-transform: uppercase;
+}
+
+
+
+.podcast-icon {
+    padding-bottom:20px;
+    height:200px;
+}
+.podcast-icon img {
+    max-width:300px;
+}
+
+
+
+section#youtube {
+    background: #1659D0;
+}
+div.youtube {
+    background:  url(/images/icons/mmboxbg.png) center center repeat-x;
+    text-align: center;
+    width:200px;
+    padding: 30px;
+}
+div.youtube-box {
+    background: url(/images/icons/mmbox.png) center center no-repeat;
+    height: 200px;
+}
+div.youtube img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: 25px;
+}
+
+
+section#shows {
+    background: #607DFE url(/images/bg/block-rock.png) center bottom repeat-x;
+    padding-bottom:50px;
+}
+div.show {
+    text-align:center;
+    padding-bottom:128px;
+    background:url('/images/icons/pipe2.png') center bottom no-repeat;
+}
+div.show h3, div.show h4, div.show p {
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    font-size:16px;
+}
+div.show-box {
+    background: url(/images/icons/box-blank.png) center center no-repeat;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #330;
+    text-align: center;
+    padding-top: 6px;
+    height: 64px;
+    width: 64px;
+    margin: 0 auto;
+    
+}
+
+section#merch {
+    background-image: url(/images/bg/block-rock.png);
+}
+section#merch > div {
+    background: black;
+    padding: 30px;
+}
+.merch-box div.block {
+    /* background: purple; */
+    height:400px;
+}
+.merch-link {
+    max-width: 48px;
+}
+.merch-icon {
+    padding-bottom:20px;
+    height:200px;
+}
+
+
+.member-photo {
+    text-align: center;
+}
