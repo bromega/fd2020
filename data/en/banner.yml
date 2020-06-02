@@ -14,19 +14,23 @@ banner:
       label : "You Tube"
       link : "#youtube"
       weight: 2
-    shows:
-      label : "Shows"
-      link : "#shows"
+    onair:
+      label : "On Air"
+      link : "#onair"
       weight: 3
     merch:
       label : "Merch"
       link : "#merch"
       weight: 4
+    shows:
+      label : "Shows"
+      link : "#shows"
+      weight: 5
     about:
       label : "About"
       link : "#about"
-      weight: 5
+      weight: 6
     contact:
       label : "Contact"
       link : "#contact"
-      weight: 6
+      weight: 7

@@ -56,7 +56,7 @@ URL = "youtube"
 weight = 2
 
 [[menu.main]]
-name = "Shows"
+name = "On Air"
 URL = "shows"
 weight = 3
 
@@ -66,14 +66,19 @@ URL = "merch"
 weight = 4
 
 [[menu.main]]
+name = "Shows"
+URL = "shows"
+weight = 5
+
+[[menu.main]]
 name = "About"
 URL = "about"
-weight = 5
+weight = 6
 
 [[menu.main]]
 name = "Contact"
 URL = "contact"
-weight = 6
+weight = 7
 
 #### external / static link ####
 # [[menu.static]]
@@ -118,27 +123,19 @@ playlistId="PLLlRN_lKwt4Kw7JOA7V2exqERIUDqZYQZ"
 ############################# social icons ##########################
 [[params.social]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.facebook.com/DannyRouhierJediComic"
 
 [[params.social]]
 icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://twitter.com/funnydanny"
 
 [[params.social]]
 icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
-link = "#"
-
-[[params.social]]
-icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.youtube.com/channel/UCReoSf-PvdBOlqvO8tzboAg"
 
 [[params.social]]
 icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
-link = "#"
+link = "https://www.pinterest.com/funnydanny/"
 
 
 ################################ English Language ########################

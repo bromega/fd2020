@@ -35,8 +35,10 @@
 			crossorigin="anonymous">
 	</script>
 	
+	{{ "<!--Section JS-->" | safeHTML }}
 	<script src="{{ `js/google-calendar.js` | absURL }}"></script>
 	<script src="{{ `js/youtube.js` | absURL }}"></script>
+	<script src="{{ `js/onair.js` | absURL }}"></script>
 	<script type="text/javascript">
 		var googleCalendarURL =  "{{ .Site.Params.Calendar.calendar }}";
 		var youtubeKey =  "{{ .Site.Params.Youtube.youtubeKey }}";

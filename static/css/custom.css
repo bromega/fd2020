@@ -1,86 +1,94 @@
-h1, h2 {
+h1,
+h2,
+h3,
+h4,
+div#cf-submit {
     font-family: 'Press Start 2P', cursive;
 }
-h3, h4 {
-    /* font-family: 'Bebas Neue', sans-serif; */
-    font-family: 'Teko', sans-serif;
-    /* font-size: 2em; */
-}
-
 
 section#banner {
-    overflow:hidden;
+    overflow: hidden;
 }
 
-.hero-area a.btn{
-    color:white;
+.hero-area a.btn {
+    color: white;
     font-family: 'Press Start 2P', cursive;
-    display:block;
-    border:none;
+    display: block;
+    border: none;
     font-size: 30px;
     text-align: center;
 }
+
+
 /* .hero-area a.btn:hover{ */
-.btn-transparent:hover, .btn-transparent:focus {
-    background:transparent url('/images/icons/fdhead.png') no-repeat center left;
-    color:#BC3428;
+
+.btn-transparent:hover,
+.btn-transparent:focus {
+    background: transparent url('../images/icons/fdhead.png') no-repeat center left;
+    color: #BC3428;
 }
+
 .hero-area .content {
-    z-index:99;
+    z-index: 99;
     width: 90%;
 }
+
 .hero-area .content .hero-nav {
-    width:500px;
-    margin-top:50px;
+    width: 500px;
+    margin-top: 50px;
 }
-
-
 
 .navbar .img-fluid {
-    width:300px;
+    width: 300px;
 }
+
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Press Start 2P', cursive;
-    font-size:14px;
-    padding:0px 10px;
+    font-size: 12px;
+    padding: 0px 10px;
 }
+
 .navbar-dark .navbar-nav .nav-link.active,
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color:#BC3428;
-    
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #BC3428;
 }
+
 .title h2 {
     text-transform: uppercase;
 }
 
-
-
 .podcast-icon {
-    padding-bottom:20px;
-    height:200px;
+    padding-bottom: 20px;
+    height: 200px;
 }
+
 .podcast-icon img {
-    max-width:300px;
+    max-width: 300px;
 }
-
-
 
 section#youtube {
     background: #1659D0;
 }
+
 div.youtube {
-    background:  url('../images/icons/mmboxbg.png') center center repeat-x;
+    background: url('../images/icons/mmboxbg.png') center 40px repeat-x;
     text-align: center;
-    width:200px;
+    width: 200px;
     padding: 30px;
 }
+
 div.youtube-box {
     background: url('../images/icons/mmbox.png') center center no-repeat;
     height: 200px;
 }
+
 div.youtube-box:hover {
     background: url('../images/icons/mmboxhover.png') center center no-repeat;
 }
+
 div.youtube img {
     height: 150px;
     width: 150px;
@@ -88,22 +96,63 @@ div.youtube img {
     margin-top: 25px;
 }
 
+div.youtube h4 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    color: white;
+}
+
+div.onair {
+    background: black;
+    padding: 30px;
+}
+
+div.onair div {
+    background: url(../images/icons/nescontroller.png) center bottom no-repeat;
+    width: 100%;
+    height: 56px;
+    display: block;
+    margin-top: -28px;
+}
+
+div.onair a {
+    background: green;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid white;
+    height: 250px;
+    display: block;
+}
+div.onair a:hover {
+    border:5px solid red;
+}
+
+div.onair h2,
+div.onair h4 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
 
 section#shows {
     background: #607DFE url('../images/bg/block-rock.png') center bottom repeat-x;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
+
 div.show {
-    text-align:center;
-    padding-bottom:128px;
-    background:url('../images/icons/pipe2.png') center bottom no-repeat;
+    text-align: center;
+    padding-bottom: 128px;
+    background: url('../images/icons/pipe2.png') center bottom no-repeat;
 }
-div.show h3, div.show h4, div.show p {
-    color:white;
+
+div.show h3,
+div.show h4,
+div.show p {
+    color: white;
     font-family: 'Press Start 2P', cursive;
     text-transform: uppercase;
-    font-size:16px;
+    font-size: 16px;
 }
+
 div.show-box {
     background: url('../images/icons/box-blank.png') center center no-repeat;
     font-family: 'Press Start 2P', cursive;
@@ -115,29 +164,44 @@ div.show-box {
     height: 64px;
     width: 64px;
     margin: 0 auto;
-    
 }
 
 section#merch {
     background-image: url('../images/bg/block-rock.png');
 }
-section#merch > div {
+
+section#merch>div {
     background: black;
     padding: 30px;
 }
+
 .merch-box div.block {
-    /* background: purple; */
-    height:400px;
+    background: black;
+    height: 450px;
 }
+.merch-box div.block:hover {
+    background: #222;
+    border-color: white;
+}
+
 .merch-link {
     max-width: 48px;
 }
+
 .merch-icon {
-    padding-bottom:20px;
-    height:200px;
+    padding-bottom: 20px;
+    height: 200px;
+}
+
+#footer img {
+    width: 300px;
 }
 
 
-.member-photo {
+div#cf-submit {
+    bac
+}
+
+/* .member-photo {
     text-align: center;
-}
+} */

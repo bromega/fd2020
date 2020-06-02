@@ -4,9 +4,9 @@ var paginate = function(pageToken) {
         async: false,
         data: {
             key: youtubeKey,
-            part: "contentDetails",
+            part: "snippet",
             playlistId: playlistId,
-            maxResults: 5,
+            maxResults: 4,
             pageToken: pageToken
         },
         success: function (data) {
@@ -28,7 +28,9 @@ $(function () {
         console.log(pageToken, i);
     }
     for (v in videos) {
-        vid = videos[v].contentDetails.videoId;
+        // vid = videos[v].contentDetails.videoId;
+        vid = videos[v].snippet.resourceId.videoId;
+        title = videos[v].snippet.title;
         yid = "#youtube" + v;
         $(yid).html(`
             <div class="youtube-box">
@@ -36,6 +38,7 @@ $(function () {
                     <img src="http://i3.ytimg.com/vi/${vid}/maxresdefault.jpg" />
                 </a>
             </div>
+            <h4>${title}</h4>
         `);
     };
 });
