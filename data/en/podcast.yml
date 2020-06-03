@@ -1,10 +1,4 @@
-############################### podcast ############################
+#################################### popodcastrtfolio ###############################
 podcast:
   enable : true
-  title : Podcasts
-  pod :
-    # team member loop
-    - name : You Seem Interesting
-      image : images/podcast/Patreon_White.png
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+  title : Podcast

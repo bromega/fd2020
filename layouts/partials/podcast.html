@@ -18,28 +18,7 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range .pod }}
-			{{"<!-- Podcast item -->" | safeHTML}}
-			<div class="col-lg-4 text-center wow fadeInUp podcast-box" data-wow-duration="500ms">
-				<div class="block">
-					<div class="podcast-icon">
-						{{with .image}}<img src="{{ . }}"></i>{{ end }}
-					</div>
-					{{"<!-- Express About Yourself -->" | safeHTML}}
-					<div class="content text-center">
-						<h3>{{ .name }}</h3>
-						<p>{{ .price | markdownify }}</p>
-						<div>
-							{{ range .links }}
-								<a href="{{ .url }}" target="_blank">
-									<img src="{{ .icon }}" class="merch-link" />
-								</a>
-							{{ end }}
-						</div>
-					</div>
-				</div>
-			</div>
-			{{ end }}
+			<div id="podcast0" class="col-lg-6 col-md-12 col-12 wow fadeInDown podcast" data-wow-duration="500ms"></div>
 		</div>
 	</div>
 </section>

@@ -15,15 +15,14 @@ section#banner {
     font-family: 'Press Start 2P', cursive;
     display: block;
     border: none;
-    font-size: 30px;
+    font-size: 24px;
+    line-height: 24px;
     text-align: center;
 }
 
 
-/* .hero-area a.btn:hover{ */
-
-.btn-transparent:hover,
-.btn-transparent:focus {
+.hero-area a.btn-transparent:hover,
+.hero-area a.btn-transparent:focus {
     background: transparent url('../images/icons/fdhead.png') no-repeat center left;
     color: #BC3428;
 }
@@ -60,6 +59,17 @@ section#banner {
     text-transform: uppercase;
 }
 
+
+section#podcast {
+    background: #00039E url('../images/icons/punchoutbg.png');
+}
+section#podcast .title {
+    background: black;
+    height: 50px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
 .podcast-icon {
     padding-bottom: 20px;
     height: 200px;
@@ -67,6 +77,27 @@ section#banner {
 
 .podcast-icon img {
     max-width: 300px;
+}
+
+.podcast {
+    text-align: center;
+}
+.podcast img {
+    width: 300px;
+    border: 4px solid white;
+}
+.podcast div {
+    background: black;
+    padding: 50px;
+}
+.podcast div h2 {
+    color: #029E01;
+    font-size: 40px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px #9EEEB4;
+}
+.podcast h4 {
+    color: #34B4FC;
 }
 
 section#youtube {
@@ -100,6 +131,11 @@ div.youtube h4 {
     font-family: 'Press Start 2P', cursive;
     font-size: 16px;
     color: white;
+}
+
+
+section#onair{
+    background: black;
 }
 
 div.onair {
@@ -198,8 +234,29 @@ section#merch>div {
 }
 
 
-div#cf-submit {
-    bac
+section#contact {
+    background: black;
+}
+
+div.contact-info img {
+    width: 100%;
+}
+form#contact-form {
+    font-family: 'Press Start 2P', cursive;
+}
+
+form#contact-form input,
+form#contact-form textarea {
+    border: 1px dashed transparent;
+}
+form#contact-form input:hover,
+form#contact-form textarea:hover {
+    border: 1px dashed white;
+    -webkit-transition: border .2s;
+}
+
+div#cf-submit button {
+    background: #BC3428;
 }
 
 /* .member-photo {
