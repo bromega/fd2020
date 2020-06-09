@@ -60,6 +60,32 @@ section#banner {
 }
 
 
+
+section#podcast {
+    background: #1d0440 url('../images/backgrounds/mk2.png') 60% bottom no-repeat;
+}
+.podcast {
+    min-height:200px;
+}
+
+.podcast img {
+    width: 100%;
+    border: 10px ridge gray;
+    border-radius: 5px;
+}
+.podcast a img:hover {
+    border-color:white;
+    transition-duration: 0.5s;
+}
+.podcast a h4:hover {
+    color:white;
+    transition-duration: 0.5s;
+}
+#podcast-patreon.podcast img {
+    background: purple;
+    padding: 10px;
+}
+/* 
 section#podcast {
     background: #00039E url('../images/icons/punchoutbg.png');
 }
@@ -98,7 +124,7 @@ section#podcast .title {
 }
 .podcast h4 {
     color: #34B4FC;
-}
+} */
 
 section#youtube {
     background: #1659D0;

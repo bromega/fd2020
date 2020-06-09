@@ -8,7 +8,7 @@ const channel = $.ajax(RSS_URL0, {
     dataType: "xml",
     success: function(data) {
         // console.log(data);
-        const title = $(data).find("title:first").text();
+        // const title = $(data).find("title:first").text();
         const thumb = $(data).find("image:first url").text();
         $(data)
             .find("item")
@@ -16,18 +16,23 @@ const channel = $.ajax(RSS_URL0, {
                 const el = $(this);
                 const yid = "#podcast" + i;
                 const template = `
-                  <a href="${el.find("link").text()}" target="_blank">
-                    <img src="${thumb}" />
-                    <div>
-                        <h2>${title}</h2>
-                        <h4>${el.find("title").text()}</h4>
+                <div id="${yid}" class="row podcast" data-wow-duration="500ms">
+                    <div class="col-lg-3 col-md-12 col-12">
+                        <a href="${el.find("link").text()}" target="_blank">
+                            <img src="${thumb}" />
+                        </a>
                     </div>
-                  </a>
+                    <div class="col-lg-9 col-md-12 col-12">
+                        <a href="${el.find("link").text()}" target="_blank">
+                            <h4>${el.find("title").text()}</h4>
+                        </a>
+                     </div>
+                </div>
                 `;
-                $(yid).html(template);
-                if (i == 3) {
-                    return false;
-                }
+                $('div.podcasts').html($('div.podcasts').html() + template);
+                // if (i == 3) {
+                //     return false;
+                // }
             });
         return $(data);
     }
