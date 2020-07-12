@@ -3,12 +3,12 @@
 {{ if $data.banner.banner.enable }}
 {{ with $data.banner.banner }}
 {{"<!-- Welcome Slider-->" | safeHTML}}
-<section id="banner" class="hero-area" style='background-image: url("{{ .bg_image_webp | absURL }}")'>
+<section id="banner" class="hero-area" >
 	<!-- this image is for trigger this section fallback background image -->
 	<img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url({{ .bg_image | absURL }})'" src="{{ .bg_image_webp | absURL }}" />
 
 	<div class="content">
-			<img src="{{ .logo }}" />
+			<img class="hero-logo" src="{{ .logo }}" />
 			<div class="hero-nav">
 			{{ range sort .buttons "weight" "asc" }}
 				<a href="{{ .link }}" class="btn btn-transparent page-scroll">{{ .label }}</a>

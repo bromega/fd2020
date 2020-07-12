@@ -8,6 +8,7 @@ div#cf-submit {
 
 section#banner {
     overflow: hidden;
+    background: url("../images/backgrounds/danny1.png") 50% 60%;
 }
 
 .hero-area a.btn {
@@ -18,13 +19,14 @@ section#banner {
     font-size: 24px;
     line-height: 24px;
     text-align: center;
+    
 }
-
 
 .hero-area a.btn-transparent:hover,
 .hero-area a.btn-transparent:focus {
-    background: transparent url('../images/icons/fdhead.png') no-repeat center left;
+    background: transparent url('../images/icons/fdhead-8bit.png') center left no-repeat;
     color: #BC3428;
+    transition: none;
 }
 
 .hero-area .content {
@@ -37,14 +39,16 @@ section#banner {
     margin-top: 50px;
 }
 
-.navbar .img-fluid {
-    width: 300px;
+.navbar .img-fluid,
+#footer img {
+    width: 240px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Press Start 2P', cursive;
     font-size: 12px;
     padding: 0px 10px;
+    text-align: center;
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
@@ -59,13 +63,12 @@ section#banner {
     text-transform: uppercase;
 }
 
-
-
 section#podcast {
     background: #1d0440 url('../images/backgrounds/mk2.png') 60% bottom no-repeat;
 }
+
 .podcast {
-    min-height:200px;
+    min-height: 200px;
 }
 
 .podcast img {
@@ -73,58 +76,22 @@ section#podcast {
     border: 10px ridge gray;
     border-radius: 5px;
 }
+
 .podcast a img:hover {
-    border-color:white;
+    border-color: white;
     transition-duration: 0.5s;
 }
+
 .podcast a h4:hover {
-    color:white;
+    color: white;
     transition-duration: 0.5s;
 }
+
 #podcast-patreon.podcast img {
     background: purple;
     padding: 10px;
 }
-/* 
-section#podcast {
-    background: #00039E url('../images/icons/punchoutbg.png');
-}
-section#podcast .title {
-    background: black;
-    height: 50px;
-    padding-top: 20px;
-    margin-bottom: 50px;
-}
 
-.podcast-icon {
-    padding-bottom: 20px;
-    height: 200px;
-}
-
-.podcast-icon img {
-    max-width: 300px;
-}
-
-.podcast {
-    text-align: center;
-}
-.podcast img {
-    width: 300px;
-    border: 4px solid white;
-}
-.podcast div {
-    background: black;
-    padding: 50px;
-}
-.podcast div h2 {
-    color: #029E01;
-    font-size: 40px;
-    text-transform: uppercase;
-    -webkit-text-stroke: 2px #9EEEB4;
-}
-.podcast h4 {
-    color: #34B4FC;
-} */
 
 section#youtube {
     background: #1659D0;
@@ -155,12 +122,10 @@ div.youtube img {
 
 div.youtube h4 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 16px;
     color: white;
 }
 
-
-section#onair{
+section#onair {
     background: black;
 }
 
@@ -185,8 +150,9 @@ div.onair a {
     height: 250px;
     display: block;
 }
+
 div.onair a:hover {
-    border:5px solid red;
+    border: 5px solid red;
 }
 
 div.onair h2,
@@ -200,7 +166,7 @@ section#shows {
     padding-bottom: 50px;
 }
 
-div.show {
+#shows div.show {
     text-align: center;
     padding-bottom: 128px;
     background: url('../images/icons/pipe2.png') center bottom no-repeat;
@@ -241,6 +207,7 @@ section#merch>div {
     background: black;
     height: 450px;
 }
+
 .merch-box div.block:hover {
     background: #222;
     border-color: white;
@@ -256,9 +223,8 @@ section#merch>div {
 }
 
 #footer img {
-    width: 300px;
+    width: 240px;
 }
-
 
 section#contact {
     background: black;
@@ -267,6 +233,7 @@ section#contact {
 div.contact-info img {
     width: 100%;
 }
+
 form#contact-form {
     font-family: 'Press Start 2P', cursive;
 }
@@ -275,6 +242,7 @@ form#contact-form input,
 form#contact-form textarea {
     border: 1px dashed transparent;
 }
+
 form#contact-form input:hover,
 form#contact-form textarea:hover {
     border: 1px dashed white;
@@ -285,6 +253,36 @@ div#cf-submit button {
     background: #BC3428;
 }
 
+
 /* .member-photo {
     text-align: center;
 } */
+
+
+
+
+@media screen and (min-width: 601px) {
+    .hero-area .content .hero-logo, 
+    .hero-area .content .hero-nav {
+        width: 500px;
+    }
+    h4.podcast-title {
+        font-size: 20px;
+    }
+}
+
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 600px) {
+    .hero-area .content .hero-logo, 
+    .hero-area .content .hero-nav {
+        width: 100%
+    }
+    h4 {
+        font-size: 14px;
+    }
+    h4.podcast-title {
+        font-size: 10px;
+    }
+}

@@ -17,14 +17,14 @@ const channel = $.ajax(RSS_URL0, {
                 const yid = "#podcast" + i;
                 const template = `
                 <div id="${yid}" class="row podcast" data-wow-duration="500ms">
-                    <div class="col-lg-3 col-md-12 col-12">
+                    <div class="col-lg-3 col-md-3 col-6">
                         <a href="${el.find("link").text()}" target="_blank">
                             <img src="${thumb}" />
                         </a>
                     </div>
-                    <div class="col-lg-9 col-md-12 col-12">
+                    <div class="col-lg-9 col-md-9 col-6">
                         <a href="${el.find("link").text()}" target="_blank">
-                            <h4>${el.find("title").text()}</h4>
+                            <h4 class="podcast-title">${el.find("title").text()}</h4>
                         </a>
                      </div>
                 </div>
