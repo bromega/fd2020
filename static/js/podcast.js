@@ -10,9 +10,8 @@ const channel = $.ajax(RSS_URL0, {
         // console.log(data);
         // const title = $(data).find("title:first").text();
         const thumb = $(data).find("image:first url").text();
-        $(data)
-            .find("item")
-            .each(function(i) {
+        const pods = $(data).find('item')
+        pods.each(function(i) {
                 const el = $(this);
                 const yid = "#podcast" + i;
                 const template = `
@@ -29,10 +28,12 @@ const channel = $.ajax(RSS_URL0, {
                      </div>
                 </div>
                 `;
-                $('div.podcasts').html($('div.podcasts').html() + template);
-                // if (i == 3) {
-                //     return false;
-                // }
+                $('div.podcast-container').html($('div.podcast-container').html() + template);
+
+                // limit results
+                if (i == 2) {
+                    return false;
+                }
             });
         return $(data);
     }

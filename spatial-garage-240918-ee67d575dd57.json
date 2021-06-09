@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "spatial-garage-240918",
+  "private_key_id": "ee67d575dd57b161fc312fcc02febd68976b76f3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQaWrUrXKzJuT2\n5qqhDHC7SMtit8tftr5glI+j9Mn49U+Q6NwBFm5DG12hSHD9i7j8IMv8rsmBZG0r\nXEvEQTukZAt/krCxP4hNaZEiIrEVm/1SirkpeGw+S8sMBBeo45vRGI4/dkKQuNjH\nusH3RHYG+5OcpCqZFkoXw9cJW54WxZD9rJB2UD0h96v62qeNNaQ61ceXYKYtNdaR\n8z07kkhqYpoJ8rrbHuREKKCLhCPzuKuIdR1nb2VQE24hu58XhgOKVDiQTKsZZ+Hy\n2107BwYAJQPEcN1RBNQzcibWgLi4m0BCH+j6O2FT+HkTnWoGAJ02Su7TnEzqO33r\nel2blOEXAgMBAAECggEAZ35Z4zgos8dWPzeHtwbm+lHpUeHkV+j3PB26ANi/7WXg\nN50zF0Usxx1RTxSaq4XVfDrLIXUosp0My1H/e/tK41UdEqJlJPfgN1T7keB5YLpA\nP1uNHIdk9UCNGa/0kdVJXLndda1D2/s3B2P6C1DPbaNDh69MSg40B/4kDE0XQcW/\nMObrCzsisumG6s6lDtMkC/f1ybGg5JnW4TrKbco4vELEirPzBV2fQbDheJXbAPMu\nuETf0Rg8Nu8wUXzxDIw/qdvhVtDlXkPEfceW/FX4E+GftqW08M+dJmbf3vXFvM8s\n2j5pFCLyHZjV88obf+XJ8rTHR5smk0smsHpxM2/96QKBgQD44ao1OCDUSr1ONsVq\nuYhoixX67zIpXe9yHpx1AsfzzX3QA+Bxx/15NiA1d3b/PmTaXsUKTljJW+Vy1XA9\nZLvvVTUTHr2vIVfeL4dmNVP2Nb05Ki+a9STjqb8ozEoBFvexzBjvtyLb9J7HyJOX\nSm2rBvMF/66e5xr1x1ekbx7BWQKBgQDWX23cD9EWSPuKaFz2VabIrrj+QnwVH8V7\nZkWf8k30Y+pLB2KY28+J1ylVOfawUn7gAbQR5xAoEX5cJAmRtaR3G5h86+knCvO5\n2y91wCCsWxUB3TRRlm4Sy3vPI6bZBslYHk1FXOF+ycSa36QtrFrLcrcYDqBPjk8a\nfmwb9C537wKBgE5f0hfcSwpPVvnwaY7ISlqRoiRZevRn7mWDmkWG0KzIA1ykO+PY\n1Mt87fuoWULbxSq3OVmbfn46gDD/Yc8Tj9M4g/Q3dAhYebEwSnU3Se940NPVoxQr\nKqi+5cHVQ2DAeNP2r8udYk7d47qKQWAdQhffolw7PiQwJt9LHSBdFdRRAoGAJKAn\nR+rX4UPU3h/Yiim2FiFr79zyEDXeaqfdi2c9lFyhwfHgEZe0jKtbH3mIwTVHAgSo\nfEqLAx2CBkIN9HwhPkxTsDwqGIaRf5aINEkADBJ/s1LUxn+6DLIBVDGWJww2yDxd\nHVWyHRRh58f/5+HDnXDbAVw2XYFF2JPy6o+8hLcCgYEAo+DkvZtxxCuCYWFsYNIJ\njCFuu/BJf7NxAbcAlfMEVYCUb5mijBtSlSR103DJS3yNZjV+lV2JY1G1jPo2eyDl\nuVsUeRymXywLCSmwkwB+1KEyztbkWsOL1nEiWmtIr4IrYJ7/+apzyboEMj+Yw1Kf\n6NPWwnSuMsOc3riScRBJ7nk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "funnydannyserviceaccount@spatial-garage-240918.iam.gserviceaccount.com",
+  "client_id": "110060636091483377989",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/funnydannyserviceaccount%40spatial-garage-240918.iam.gserviceaccount.com"
+}

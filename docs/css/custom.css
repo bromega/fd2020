@@ -64,11 +64,11 @@ section#banner {
 }
 
 section#podcast {
-    background: #1d0440 url('../images/backgrounds/mk2.png') 60% bottom no-repeat;
+    background: #1d0440 url('../images/backgrounds/mkmountain.gif') 60% bottom no-repeat;
 }
 
 .podcast {
-    min-height: 200px;
+    padding: 20px 0px;
 }
 
 .podcast img {
@@ -80,6 +80,15 @@ section#podcast {
 .podcast a img:hover {
     border-color: white;
     transition-duration: 0.5s;
+}
+
+.podcast a h4 {
+    font-size: 16px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .podcast a h4:hover {
@@ -166,7 +175,7 @@ section#shows {
     padding-bottom: 50px;
 }
 
-#shows div.show {
+div.show {
     text-align: center;
     padding-bottom: 128px;
     background: url('../images/icons/pipe2.png') center bottom no-repeat;
@@ -179,6 +188,11 @@ div.show p {
     font-family: 'Press Start 2P', cursive;
     text-transform: uppercase;
     font-size: 16px;
+}
+
+div.show.no-show {
+    background: url('../images/icons/mario-stars.gif') center bottom no-repeat;
+    height: 300px;
 }
 
 div.show-box {

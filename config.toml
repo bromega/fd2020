@@ -57,7 +57,7 @@ weight = 2
 
 [[menu.main]]
 name = "On Air"
-URL = "shows"
+URL = "onair"
 weight = 3
 
 [[menu.main]]
@@ -112,12 +112,13 @@ map_marker = "images/marker.png"
 
 # google calendar shows
 [params.calendar]
-calendar="https://www.googleapis.com/calendar/v3/calendars/ea91uk3paaqo8go1j4m5fpre3s@group.calendar.google.com/events?key=AIzaSyCaOSZ1q3GDAwq8MPwj37oUhaujgD90lOg"
+calendar="https://www.googleapis.com/calendar/v3/calendars/ea91uk3paaqo8go1j4m5fpre3s@group.calendar.google.com/events?key=AIzaSyB_99EvxHLlNvMIXcQloLfrM16baFRUhwk"
 
 
 [params.youtube]
-youtubeKey="AIzaSyCaOSZ1q3GDAwq8MPwj37oUhaujgD90lOg"
-playlistId="PLLlRN_lKwt4Kw7JOA7V2exqERIUDqZYQZ"
+# youtubeKey="AIzaSyCaOSZ1q3GDAwq8MPwj37oUhaujgD90lOg"
+youtubeKey="AIzaSyDojlu03gQE6MoVETQBltqz2IxIviNvtSM"
+playlistId="FLReoSf-PvdBOlqvO8tzboAg"
 
 
 ############################# social icons ##########################
@@ -145,7 +146,7 @@ languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
 home = "Home"
-copyright = "copyright &copy; 2019 [gethugothemes](https://gethugothemes.com) all right reserved"
+# copyright = "copyright &copy; 2021 [gethugothemes](https://gethugothemes.com) all right reserved"
 
 ################################ France Language ########################
 # [Languages.fr]

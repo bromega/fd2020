@@ -10,6 +10,7 @@ var paginate = function(pageToken) {
             pageToken: pageToken
         },
         success: function (data) {
+            console.log(data)
             videos = videos.concat(data.items);
             pageToken = data.nextPageToken;
         }
@@ -25,7 +26,7 @@ $(function () {
     while (i < 2) {
         pageToken = paginate(pageToken);
         i = i + 1;
-        console.log(pageToken, i);
+        // console.log(pageToken, i);
     }
     for (v in videos) {
         // vid = videos[v].contentDetails.videoId;

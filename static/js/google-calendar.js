@@ -41,20 +41,29 @@ $(function () {
         async: false,
         success: function (data) {
             var shows = data.items.sort((a,b)=>(a.start.dateTime < b.start.dateTime?1:-1))
-            shows = shows.filter((s)=>(Date.parse(s.start.dateTime) > Date.now())) 
-            $(shows).each(function (i, item) {
-                showdate = new Date(item.start.dateTime)
-                boxdate = showdate.toLocaleDateString('en-US', options);
-                var details = formatDescription(item.description)
-                var loc = formatLocation(item.location);
+            shows = shows.filter((s)=>(Date.parse(s.start.dateTime) > Date.now()))
+            
+            if (shows.length > 0) {
+                $(shows).each(function (i, item) {
+                    showdate = new Date(item.start.dateTime)
+                    boxdate = showdate.toLocaleDateString('en-US', options);
+                    var details = formatDescription(item.description)
+                    var loc = formatLocation(item.location);
+                    $('.shows-title').after(`
+                    <div class="col-lg-3 col-md-6 col-12 wow fadeInDown show" data-wow-duration="500ms">
+                        <div class="show-box">${boxdate}</div>
+                        <p>${item.summary}</p>
+                    </div>
+                    `);
+                });
+            } else {
                 $('.shows-title').after(`
-                <div class="col-lg-3 col-md-6 col-12 wow fadeInDown show" data-wow-duration="500ms">
-                    <div class="show-box">${boxdate}</div>
-                    <p>${item.summary}</p>
+                <div class="col-lg-3 col-md-6 col-12 wow fadeInDown show no-show" data-wow-duration="500ms">
+                    <p>No Shows Currently Scheduled</p>
                 </div>
-            `
-                );
-            });
+                `);
+            }
+            
         }
     });
 });

@@ -14,23 +14,6 @@
 				<div class="content-block">
 					<h2>{{ .title | markdownify }}</h2>
 					<p>{{ .content | markdownify }}</p>
-					<div class="row">
-						{{ range .feature_item }}
-						<div class="col-lg-6">
-							<div class="media">
-								{{with .icon}}
-								<div class="align-self-start mr-3">
-									<i class="{{ . }}"></i>
-								</div>
-								{{ end }}
-								<div class="media-body">
-									<h4 class="media-heading">{{ .title | markdownify }}</h4>
-									<p>{{ .content | markdownify }}</p>
-								</div>
-							</div>
-						</div>
-						{{ end }}
-					</div>
 				</div>
 			</div>
 		</div>
