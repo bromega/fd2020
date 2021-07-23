@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-#baseURL = "https://funnydanny.com"
-baseURL = "https://bromega.github.io/fd2020/"
+baseURL = "https://funnydanny.com"
+# baseURL = "https://bromega.github.io/fd2020/"
 title = "Funny Danny"
 theme = "meghna-hugo"
 
