@@ -49,10 +49,13 @@ $(function () {
                     boxdate = showdate.toLocaleDateString('en-US', options);
                     var details = formatDescription(item.description)
                     var loc = formatLocation(item.location);
+                    const getPathFromUrl = (url) => {
+                        return url.replace(/<a\b[^>]*">/i,"").replace("</a>","")
+                      }
                     $('.shows-title').after(`
                     <div class="col-lg-3 col-md-6 col-12 wow fadeInDown show" data-wow-duration="500ms">
-                        <div class="show-box">${boxdate}</div>
-                        <p>${item.summary}</p>
+                            <div class="show-box">${boxdate}</div>
+                            <a href="${getPathFromUrl(item.description)}" target="_blank"><p>${item.summary}</p></a>
                     </div>
                     `);
                 });
