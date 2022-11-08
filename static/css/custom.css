@@ -189,6 +189,9 @@ div.show p {
     text-transform: uppercase;
     font-size: 16px;
 }
+div.show p:hover {
+    color:#aad20f;
+}
 
 div.show.no-show {
     background: url('../images/icons/mario-stars.gif') center bottom no-repeat;
