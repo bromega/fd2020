@@ -1,0 +1,43 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.featured.featured.enable }}
+{{ with $data.featured.featured }}
+
+<section class="section" id="featured">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 featured-title">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h2>
+                        Featured
+                    </h2>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+            <!-- <div class="col-lg-6 col-md-6 col-6 wow fadeIn" data-wow-duration="500ms"> -->
+            <!-- <div class="featured">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/q5HSBQqlUW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div> -->
+            {{ range .youtube }}
+            <div class="featured col-lg-4 col-md-4 col-4 wow fadeIn">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ . }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            {{ end }}
+            {{ range .instagram }}
+            <div class="featured col-lg-4 col-md-4 col-4 wow fadeIn">
+                {{ partial "instagram.html" .}}
+            </div>
+            {{ end }}
+
+            
+            <!-- <script async src="//www.instagram.com/embed.js"></script> -->
+
+
+            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/q5HSBQqlUW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+
+        </div>
+    </div>
+</section>
+{{end}}
+{{end}}

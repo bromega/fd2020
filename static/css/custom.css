@@ -6,9 +6,16 @@ div#cf-submit {
     font-family: 'Press Start 2P', cursive;
 }
 
+p {
+    color: #aaa;
+    font-family: 'Rajdhani';
+    font-size: 20px;
+    margin-top: 20px;
+}
+
 section#banner {
     overflow: hidden;
-    background: url("../images/backgrounds/danny1.png") 50% 60%;
+    background: black url("../images/backgrounds/danny1.png") 50% 60% no-repeat;
 }
 
 .hero-area a.btn {
@@ -19,7 +26,7 @@ section#banner {
     font-size: 24px;
     line-height: 24px;
     text-align: center;
-    
+
 }
 
 .hero-area a.btn-transparent:hover,
@@ -61,6 +68,22 @@ section#banner {
 
 .title h2 {
     text-transform: uppercase;
+}
+
+
+section#featured {
+    background: url('../images/backgrounds/smb2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.featured {
+    border-top: 4px solid #d8ac41;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
 }
 
 section#podcast {
@@ -189,8 +212,9 @@ div.show p {
     text-transform: uppercase;
     font-size: 16px;
 }
+
 div.show p:hover {
-    color:#aad20f;
+    color: #aad20f;
 }
 
 div.show.no-show {
@@ -279,10 +303,12 @@ div#cf-submit button {
 
 
 @media screen and (min-width: 601px) {
-    .hero-area .content .hero-logo, 
+
+    .hero-area .content .hero-logo,
     .hero-area .content .hero-nav {
         width: 500px;
     }
+
     h4.podcast-title {
         font-size: 20px;
     }
@@ -292,13 +318,16 @@ div#cf-submit button {
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 
 @media screen and (max-width: 600px) {
-    .hero-area .content .hero-logo, 
+
+    .hero-area .content .hero-logo,
     .hero-area .content .hero-nav {
         width: 100%
     }
+
     h4 {
         font-size: 14px;
     }
+
     h4.podcast-title {
         font-size: 10px;
     }

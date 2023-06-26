@@ -7,8 +7,8 @@ banner:
   logo: images/logo/logo-16-bit.png
   buttons:
     podcast:
-      label : "Podcast"
-      link : "#podcast"
+      label : "Featured"
+      link : "#featured"
       weight: 1
     youtube:
       label : "You Tube"
